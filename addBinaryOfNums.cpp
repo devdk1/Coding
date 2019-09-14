@@ -1,5 +1,9 @@
+/**
+ * Given two integers, add their binary representation. 
+ */
 #include <iostream>
 #include <iosfwd>
+
 
 using namespace std;
 #define SIZE 16
@@ -65,7 +69,7 @@ int main(void) {
     for (unsigned i = 0; i < SIZE; i++)
         cout<<arr[i];
     cout<<endl;
-    
+
 	delete[] arr;
 
     return 0;
